@@ -1,4 +1,6 @@
 {
   "item.mcwine.grape_seed_red": "Red Grape Seed",
-  "item.mcwine.grape_seed_white": "White Grape Seed"
+  "item.mcwine.grape_seed_white": "White Grape Seed",
+
+  "itemGroup.mcwinetab": "Minecraft Wine"
 }
