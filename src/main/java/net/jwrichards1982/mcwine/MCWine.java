@@ -1,6 +1,7 @@
 package net.jwrichards1982.mcwine;
 
 import com.mojang.logging.LogUtils;
+import net.jwrichards1982.mcwine.block.ModBlocks;
 import net.jwrichards1982.mcwine.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +25,7 @@ public class MCWine {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
